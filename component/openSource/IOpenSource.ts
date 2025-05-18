@@ -1,3 +1,5 @@
+import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
+
 import { IRow } from '../common/IRow';
 import { ICommon } from '../common/ICommon';
 
@@ -12,6 +14,14 @@ export declare namespace IOpenSource {
   export interface Payload extends ICommon.Payload {
     /** ### 오픈소스 활동 리스트 */
     list: Item[];
+    /**
+     * ### 오픈소스 활동 링크
+     */
+    description?: {
+      icon: IconDefinition;
+      linkTitle: string;
+      link: string;
+    };
   }
 
   /**

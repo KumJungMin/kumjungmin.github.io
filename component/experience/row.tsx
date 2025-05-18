@@ -64,7 +64,7 @@ export default function ExperienceRow({
         </Col>
         <Col sm={12} md={9}>
           <h4 style={{ display: 'inline-flex', alignItems: 'center' }}>
-            {item.title}{' '}
+            {item.link ? <a href={item.link}>{item.title} </a> : <span>{item.title} </span>}
             <span style={{ fontSize: '65%', display: 'inline-flex', alignItems: 'center' }}>
               {isCurrentlyEmployed && (
                 <Badge color="primary" className="ml-1">
@@ -76,6 +76,17 @@ export default function ExperienceRow({
               </Badge>
             </span>
           </h4>
+        </Col>
+      </Row>
+
+      <Row>
+        <Col sm={12} md={3} />
+        <Col sm={12} md={9} className="text-md-left">
+          {item.introduce && (
+            <span className="ml-2" style={Style.gray}>
+              {item.introduce}
+            </span>
+          )}
         </Col>
       </Row>
 

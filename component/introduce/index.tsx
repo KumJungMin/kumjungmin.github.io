@@ -33,9 +33,22 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
           <h2 style={Style.blue}>INTRODUCE</h2>
         </Col>
         <Col sm={12} md={9}>
-          {payload.contents.map((content, index) => (
-            <p key={index.toString()}>{content}</p>
-          ))}
+          {payload.contents.map(
+            (content: string | { label: string; description: string }, index: number) => {
+              if (typeof content === 'string') {
+                return <p key={index.toString()} dangerouslySetInnerHTML={{ __html: content }} />;
+              }
+              if ('label' in content && 'description' in content) {
+                return (
+                  <div key={index.toString()}>
+                    <strong style={{ fontWeight: 500 }}>{content.label}</strong>
+                    <p dangerouslySetInnerHTML={{ __html: content.description }} />
+                  </div>
+                );
+              }
+              return null;
+            },
+          )}
           <p className="text-right">
             <small>Latest Updated</small>{' '}
             <Badge color="secondary">

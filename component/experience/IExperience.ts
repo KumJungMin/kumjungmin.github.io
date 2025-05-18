@@ -1,4 +1,5 @@
 import { ICommon } from '../common/ICommon';
+import introduce from '../../payload/introduce';
 
 export declare namespace IExperience {
   /**
@@ -18,7 +19,10 @@ export declare namespace IExperience {
   export interface Item {
     /** ### (직장)경험 명 */
     title: string;
-
+    /** ### (직장) 링크 */
+    link?: string;
+    /** ### (직장) 설명 */
+    introduce?: string;
     /** ### (직장)수행한 직위/직책 포지션 정보 */
     positions: Position[];
   }
