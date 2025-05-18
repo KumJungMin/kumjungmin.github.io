@@ -1,5 +1,5 @@
 import { ICommon } from '../common/ICommon';
-import introduce from '../../payload/introduce';
+// import introduce from '../../payload/introduce';
 
 export declare namespace IExperience {
   /**
