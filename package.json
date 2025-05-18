@@ -18,7 +18,7 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://kumjungmin.github.io/",
+  "homepage": "kumjungmin.github.io",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KumJungMin/resume-nextjs.git"
