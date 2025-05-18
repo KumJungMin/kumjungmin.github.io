@@ -18,10 +18,10 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "kumjungmin.github.io",
+  "homepage": "https://kumjungmin.github.io/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KumJungMin/resume-nextjs.git"
+    "url": "git+https://github.com/uyu423/resume-nextjs.git"
   },
   "keywords": [
     "resume",
