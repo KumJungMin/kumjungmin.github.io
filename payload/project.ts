@@ -110,8 +110,7 @@ const project: IProject.Payload = {
       where: 'GLN International, HANA Financial Group',
       descriptions: [
         {
-          content:
-            '기존 해외 송금 서비스의 Vue 2에서 Vue 3로의 성공적인 마이그레이션 및 리팩토링 담당',
+          content: '기존 해외 송금 서비스의 Vue 2에서 Vue 3로의 마이그레이션 및 리팩토링 담당',
         },
         {
           content: '서비스 안정성 및 코드 품질 향상',
