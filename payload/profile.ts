@@ -9,7 +9,7 @@ const profile: IProfile.Payload = {
   disable: false,
 
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
-  image: 'https://avatars.githubusercontent.com/u/37934668?v=4',
+  image: '',
   name: {
     title: '금정민',
     small: '(Lux)',

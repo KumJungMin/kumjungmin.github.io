@@ -24,14 +24,26 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
     <div className="mt-5">
       <Row>
-        <Col md={3} sm={12}>
-          <ProfileImage src={image} />
-        </Col>
-        <Col md={9} sm={12}>
-          {createNameArea(name)}
-          {createProfileContactMap(contact)}
-          {createNoticeArea(notice)}
-        </Col>
+        {image ? (
+          <>
+            <Col md={3} sm={12}>
+              <ProfileImage src={image} />
+            </Col>
+            <Col md={9} sm={12}>
+              {createNameArea(name)}
+              {createProfileContactMap(contact)}
+              {createNoticeArea(notice)}
+            </Col>
+          </>
+        ) : (
+          <>
+            <Col md={12} sm={12}>
+              {createNameArea(name)}
+              {createProfileContactMap(contact)}
+              {createNoticeArea(notice)}
+            </Col>
+          </>
+        )}
       </Row>
     </div>
   );
