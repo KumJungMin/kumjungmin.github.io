@@ -13,8 +13,7 @@ const openSource: IOpenSource.Payload = {
       title: 'PrimeVue (primefaces/primevue)',
       descriptions: [
         {
-          content:
-            'Vue UI Component Library: Actively contributed многочисленные bug fixes and feature enhancements.',
+          content: 'Vue UI Component Library: 버그 수정 및 개선을 위한 다양한 기여를 했습니다.',
         },
         {
           content: 'Key contributions include:',
@@ -54,8 +53,7 @@ const openSource: IOpenSource.Payload = {
       title: 'PrimeReact (primefaces/primereact)',
       descriptions: [
         {
-          content:
-            'React UI Component Library: Contributed a wide range of bug fixes and improvements.',
+          content: 'React UI Component Library: 버그 수정 및 개선을 위한 다양한 기여를 했습니다.',
         },
         {
           content: 'Key contributions include:',
@@ -91,7 +89,7 @@ const openSource: IOpenSource.Payload = {
       title: 'Ant Design (ant-design/ant-design)',
       descriptions: [
         {
-          content: 'A popular UI design language and React UI library.',
+          content: 'React UI library: 버그 수정을 위한 기여를 했습니다.',
         },
         {
           content:
@@ -111,7 +109,7 @@ const openSource: IOpenSource.Payload = {
       title: 'Vue.js Ecosystem',
       descriptions: [
         {
-          content: 'Contributed to the official Vue.js documentation and related libraries.',
+          content: 'Vue.js: Vue 3 공식 문서와 더불어 관련 라이브러리의 문서 개선에 기여했습니다.',
         },
         {
           content: 'Key contributions:',
@@ -131,14 +129,18 @@ const openSource: IOpenSource.Payload = {
       ],
     },
     {
-      title: 'NextUI (nextui-org/nextui)',
+      title: 'HeroUI (heroui-inc/heroui)',
       descriptions: [
         {
-          content: 'Beautiful, fast and modern React UI library.',
+          content: 'React UI Component Library: 버그 수정 및 개선을 위한 기여를 했습니다.',
         },
         {
           content: 'Submitted PRs to fix component behavior in Firefox and improve accessibility.',
           descriptions: [
+            {
+              content:
+                'Improved AutoComplete component behavior by ensuring focused item matches selected item after filtering/selection (PR #5290).',
+            },
             {
               content:
                 'Prevented year/month change in `showMonthAndYearPickers` mode (Firefox specific, PR #3088).',
@@ -156,27 +158,10 @@ const openSource: IOpenSource.Payload = {
       ],
     },
     {
-      title: 'HeroUI (heroui-inc/heroui)',
-      descriptions: [
-        {
-          content: 'A Tailwind CSS UI Kit with a focus on simplicity and ease of use.',
-        },
-        {
-          content:
-            'Improved AutoComplete component behavior by ensuring focused item matches selected item after filtering/selection (PR #5290).',
-        },
-        {
-          content: 'https://github.com/heroui-inc/heroui',
-          href: 'https://github.com/heroui-inc/heroui',
-        },
-      ],
-    },
-    {
       title: 'Other Contributions & Suggestions',
       descriptions: [
         {
-          content:
-            'Actively participated in various open-source projects by reporting issues, suggesting features, and proposing solutions.',
+          content: '여러 라이브러리에서 버그 제안, 대체 솔루션 제안 등의 기여를 했습니다.',
         },
         {
           content: 'Examples include:',
