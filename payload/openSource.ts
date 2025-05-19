@@ -138,7 +138,7 @@ const openSource: IOpenSource.Payload = {
             },
             {
               content:
-                'Applied `inert` attribute according to `isHeaderExpanded` for better accessibility (<a href="https://github.com/heroui-inc/heroui/pull/5290">#5290</a>).',
+                'Ensure focused item matches selected item after filter, selection (<a href="https://github.com/heroui-inc/heroui/pull/5290">#5290</a>).',
             },
           ],
         },
