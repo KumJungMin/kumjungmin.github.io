@@ -21,21 +21,20 @@ const openSource: IOpenSource.Payload = {
           descriptions: [
             {
               content:
-                'Resolved issues in Calendar, DatePicker, DataTable, Dropdown, Accordion, TreeSelect, Menubar, Carousel, and DynamicDialog components.',
+                'Resolved issues in Calendar, DatePicker, DataTable, Dropdown, Accordion, TreeSelect, Menubar, Carousel, and DynamicDialog components. (<a href="https://github.com/primefaces/primevue/pull/5988">#5988</a>, <a href="https://github.com/primefaces/primevue/pull/6501">#6501</a>, etc.)',
             },
             {
               content:
-                'Improved component behavior (e.g., scroll blocking, overlay positioning, event handling, keyboard navigation, data updates).',
-            },
-            {
-              content:
-                'Enhanced date/time selection logic, including range highlighting and input validation.',
+                'Improved component behavior (e.g., scroll blocking, overlay positioning, event handling, keyboard navigation, data updates). (<a href="https://github.com/primefaces/primevue/pull/5759">#5759</a>, <a href="https://github.com/primefaces/primevue/pull/6544">#6544</a>, etc.)',
             },
             {
               content:
                 'Refactored and optimized component internals (e.g., ResizeObserver for autoResize, passthrough props).',
             },
-            // { content: 'Example: Fixed issue preventing scroll unblock when multiple dialogs are open (PR #5854).' }, // 구체적 예시 한두개
+            {
+              content:
+                '(<a href="https://github.com/primefaces/primevue/pull/6630">#6630</a> etc.)',
+            }, // 구체적 예시 한두개
             // { content: 'Example: Enhanced DataTable to apply updated cell value after sorting (PR #6984).' },
           ],
         },
@@ -61,20 +60,13 @@ const openSource: IOpenSource.Payload = {
           descriptions: [
             {
               content:
-                'Addressed bugs in Calendar, DataTable, Dropdown, TreeTable, MultiSelect, AutoComplete, OrderList, Picklist, InputOtp, InputMask, and Galleria components.',
+                'Addressed bugs in Calendar, DataTable, Dropdown, TreeTable, MultiSelect, AutoComplete, OrderList, Picklist, InputOtp, InputMask, and Galleria components. (<a href="https://github.com/primefaces/primereact/pull/7810">#7810</a>, <a href="https://github.com/primefaces/primereact/pull/7924">#7924</a>, <a href="https://github.com/primefaces/primereact/pull/7767">#7767</a>, etc.)',
             },
             {
               content:
                 'Improved user experience (e.g., keyboard navigation, date/time selection, drag-and-drop, focus management).',
             },
-            {
-              content:
-                'Enhanced component stability and reliability (e.g., event handling, state updates, prop validation).',
-            },
-            {
-              content:
-                'Refined component styling and theming (e.g., DataTable footer border in SASS theme).',
-            },
+
             // { content: 'Example: Fixed TreeTable to highlight rows selected with checkbox (PR #7406).' },
             // { content: 'Example: Ensured correct year/month range highlighting in Calendar (PR #6760, #6759).' },
           ],
@@ -93,7 +85,7 @@ const openSource: IOpenSource.Payload = {
         },
         {
           content:
-            'Improved documentation for TimePicker and DatePicker components by adding guides for the `needConfirm` option.',
+            'Improved documentation for TimePicker and DatePicker components by adding guides for the `needConfirm` option. (<a href="https://github.com/ant-design/ant-design/pull/48967">#48967</a>)',
           // descriptions: [ // 필요시 PR 링크 명시
           //   { content: 'Added needConfirm option guide to TimePicker (PR #48945).' },
           //   { content: 'Updated needConfirm option guide to DatePicker (PR #48967).' },
@@ -116,16 +108,19 @@ const openSource: IOpenSource.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             {
-              content: 'vue-i18n-next: Added pnpm installation guide to documentation (PR #1676).',
+              content:
+                'vue-i18n-next: Added pnpm installation guide to documentation (<a href="https://github.com/intlify/vue-i18n/pull/1676">#1676</a>).',
             },
-            { content: '@vue/core-docs: Added error type guidance for defineProps (PR #2697).' },
-            { content: '@vue/core-docs: Added watcher `once` option guide (PR #2698).' },
+            {
+              content:
+                '@vue/core-docs: Added error type guidance for defineProps (<a href="https://github.com/vuejs/docs/pull/2697">#2697</a>).',
+            },
+            {
+              content:
+                '@vue/core-docs: Added watcher `once` option guide (<a href="https://github.com/vuejs/docs/pull/2698">#2698</a>).',
+            },
           ],
         },
-        // { // vue-scroll-picker는 개별 항목으로 빼거나 여기에 포함
-        //   content: 'vue-scroll-picker: Suggested `disable` property to prevent scrolling on specific items (Issue #816).',
-        //   href: 'https://github.com/wan2land/vue-scroll-picker'
-        // }
       ],
     },
     {
@@ -139,15 +134,11 @@ const openSource: IOpenSource.Payload = {
           descriptions: [
             {
               content:
-                'Improved AutoComplete component behavior by ensuring focused item matches selected item after filtering/selection (PR #5290).',
+                'Prevented year/month change in `showMonthAndYearPickers` mode (<a href="https://github.com/heroui-inc/heroui/pull/3088">#3088</a>).',
             },
             {
               content:
-                'Prevented year/month change in `showMonthAndYearPickers` mode (Firefox specific, PR #3088).',
-            },
-            {
-              content:
-                'Applied `inert` attribute according to `isHeaderExpanded` for better accessibility (PR #3087).',
+                'Applied `inert` attribute according to `isHeaderExpanded` for better accessibility (<a href="https://github.com/heroui-inc/heroui/pull/5290">#5290</a>).',
             },
           ],
         },
@@ -169,19 +160,15 @@ const openSource: IOpenSource.Payload = {
           descriptions: [
             {
               content:
-                'jshttp/mime-types: Suggested solution for path browser compatibility error in Vite (Issue #124).',
+                'jshttp/mime-types: Suggested solution for path browser compatibility error in Vite (<a href="https://github.com/jshttp/mime-types/issues/124">#124</a>).',
             },
             {
               content:
-                'LouisMazel/maz-ui: Suggested enhancements for arrow key support and value override (Issue #1067).',
+                'LouisMazel/maz-ui: Suggested enhancements for arrow key support and value override (<a href="https://github.com/LouisMazel/maz-ui/issues/1067">#1067</a>).',
             },
             {
               content:
-                'indielayer/ui: Suggested feature to keep notification open on hover and reported modal width issue (Issue #83).',
-            },
-            {
-              content:
-                'wan2land/vue-scroll-picker: Suggested `disable` property for item scroll prevention (Issue #816).',
+                'wan2land/vue-scroll-picker: Suggested `disable` property for item scroll prevention (<a href="https://github.com/wan2land/vue-scroll-picker/issues/816">#816</a>).',
             },
           ],
         },

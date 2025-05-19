@@ -103,7 +103,7 @@ function Description({ description }: PropsWithChildren<{ description: IRow.Desc
     return (
       <>
         <meta name="format-detection" content="telephone=no" />
-        <li style={getFontWeight(weight)}>{content}</li>
+        <li style={getFontWeight(weight)} dangerouslySetInnerHTML={{ __html: content }} />
       </>
     );
   })();
